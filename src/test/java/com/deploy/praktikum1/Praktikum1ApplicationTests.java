@@ -1,13 +1,11 @@
 package com.deploy.praktikum1;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class Praktikum1ApplicationTests {
+@SpringBootApplication
+public class Praktikum1ApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    public static void main(String[] args) { SpringApplication.run(Praktikum1Application.class, args); }
 
 }
